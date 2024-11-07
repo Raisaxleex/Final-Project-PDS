@@ -44,12 +44,16 @@ The models chosen for this Brain Stroke Detection task are Logistic Regression a
 - **Testing Results**: The testing accuracy achieved is 93.93%.
 
 ## Results
-The model performs well on both the training and testing data, indicating good generalization and predictive capability.
 
-| Metric       | Training Accuracy | Testing Accuracy |
-|--------------|-------------------|-------------------|
-| **Accuracy** | 0.9543            | 0.9393            |
 
+Both **Logistic Regression** and **Random Forest** models perform well on the training and testing data, indicating good generalization and predictive capability for stroke detection.
+
+| Model              | Metric       | Training Accuracy | Testing Accuracy |
+|--------------------|--------------|-------------------|------------------|
+| **Logistic Regression** | Accuracy      | 0.9543            | 0.9393           |
+| **Random Forest**       | Accuracy      | 1.0               | 0.9384           |
+
+These results show that both models effectively capture patterns in the data, with Logistic Regression providing a balance between accuracy and interpretability, while Random Forest demonstrates strong predictive performance, particularly on the training data.
 ## Conclusion
 This project demonstrates a reliable approach for detecting brain stroke risk based on demographic and health-related features. With high accuracy on both training and testing sets, the model shows potential for real-world application in preliminary stroke risk screening.
 
