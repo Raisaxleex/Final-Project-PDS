@@ -36,7 +36,7 @@ The original dataset contains the following columns:
 Exploratory Data Analysis (EDA) was conducted to understand the distribution and correlation of features. Insights gained from the analysis guided the feature engineering and preprocessing steps, helping to enhance the model’s performance.
 
 ## Model Selection
-The model chosen for this task is `LogisticRegression()`, which is suitable for binary classification problems like this one. Logistic Regression is efficient and interpretable, making it a good choice for medical data applications.
+The models chosen for this Brain Stroke Detection task are Logistic Regression and Random Forest, both of which are suitable for binary classification problems like this one. Here’s why each model is appropriate for your dataset.
 
 ## Model Training
 - **Data Split**: The dataset was split into 80% for training and 20% for testing to evaluate the model's performance.
